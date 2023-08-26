@@ -4,9 +4,17 @@ const React = require('react')
 
         return (
             <div>
-                <h1>New Page</h1>
-                
-            </div>
+            <h1>New Vegetables page</h1>
+            {/* NOTE: action will be the route, method will be the HTTP verb */}
+            <form action="/Vegetables" method="POST">
+              Name: <input type="text" name="name" /><br/>
+              Color: <input type="text" name="color" /><br/>
+              Is Ready To Eat: <input type="checkbox" name="readyToEat" /><br/>
+              <input type="submit" name="" value="Create Fruit"/>
+            </form>
+        </div>
+
+            
          
          );
         }

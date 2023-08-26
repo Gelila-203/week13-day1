@@ -24,6 +24,9 @@ class Index extends React.Component {
                             );
                         })}
                     </ul>
+                    <nav>
+                        <a href='/Vegetables/new'> Create a new Vegetable </a>
+                    </nav>
                 </div>
         );
     }

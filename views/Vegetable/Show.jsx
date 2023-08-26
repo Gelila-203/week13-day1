@@ -7,7 +7,7 @@ const React = require('react')
             <div>
                 <h1> Show Page </h1>
                 The {Vegetable.name} is {Vegetable.color}
-                {Vegetable.readyToEat? ' Its is ready to eat' : ' It is not ready to eat... Cant touch this' }
+                {Vegetable.readyToEat? ', Its is ready to eat' : ', It is not ready to eat... Cant touch this' }
             </div>
          
          );
